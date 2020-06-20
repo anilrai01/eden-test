@@ -1,0 +1,40 @@
+@media only screen and (max-width: 360px) {
+  :root {
+    font-size: 8px;
+  }
+  .custom-nav {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  :root {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
+  .s-right,
+  .s-left {
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    font-size: 12px;
+  }
+  .hero-banner {
+    background-image: url("#") !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-asset,
+  .t-text {
+    width: 100% !important;
+  }
+}
